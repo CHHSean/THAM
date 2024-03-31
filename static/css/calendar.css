@@ -1,0 +1,62 @@
+.calendar {
+    font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+    width: 490px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#calendar_weekday {
+    width: 500px;
+}
+
+#calendar_weektitle {
+    width: 500px;
+}
+
+.prev {
+    cursor: pointer;
+    float: left;
+    /*            padding-right: px;*/
+}
+
+.next {
+    cursor: pointer;
+    float: right;
+    /*            padding-right: px;*/
+}
+
+#calendar_weekday div,
+#calendar_weektitle div {
+    border-bottom: 1px solid #cccccc;
+    font-size: 11px;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#calendar_weekday div {
+    color: #adadad;
+}
+
+#calendar_weekday>div:hover {
+    background-color: #ffcd3c;
+    opacity: .5;
+}
+
+#regis,
+#instalment {
+    line-height: 35px;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    width: 490px;
+    padding-left: 20px;
+}
+
+#regis {
+    background-color: #ffd96a;
+    height: 40px;
+}
+
+#instalment {
+    border-bottom: 1px solid red;
+    /*line-height: 30px;*/
+    height: 36px;
+}
